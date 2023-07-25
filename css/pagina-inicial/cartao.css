@@ -1,0 +1,85 @@
+.cartao-resposta{
+    background-color: var(--bg--cartao);
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 65vw;
+    height: 15vh;
+    padding: 5vw;
+    margin: 1vw;
+}
+
+.cartao-resposta:hover{
+    background-color: var(--bg-menu-hover);
+    color: var(--bg-fonte-adiciona);
+    cursor: pointer;
+}
+
+.cartao-reposta--titulo{
+    line-height: 120%;
+}
+
+.container--acoes{
+    display: flex;
+    flex-direction: row;
+    margin: 1vw;
+    justify-content: space-around;
+}
+
+.cartao-resposta--tag{
+    background-color: var(--bg-tag);
+    color: var(--bg-menu);
+    border-radius: 1vw;
+    padding: 1vw;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.criar-novo-cartao{
+    background-color: var(--bg-adiciona);
+    color: var(--bg-fonte-adiciona);
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 65vw;
+    height: 15vh;
+    padding: 5vw;
+    margin: 1vw;
+}
+
+.criar-novo-cartao:hover{
+    background-color: var(--bg-menu-hover);
+    cursor: pointer;
+}
+
+.cartao-resposta--id{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .cartao-resposta{
+        width: 15vw;
+        height: 25vh;
+        padding: 2vw;
+        border-radius: 1vw;
+    }
+
+    .cartao-resposta--tag{
+        background-color: var(--bg-tag);
+        color: var(--bg-menu);
+        border-radius: 0.5vw;
+        padding: 0.5vw;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .criar-novo-cartao{
+        width: 15vw;
+        height: 25vh;
+        padding: 2vw;
+        border-radius: 1vw;
+    }
+}

@@ -1,0 +1,30 @@
+@import url("./pagina-inicial/header.css");
+@import url("./pagina-inicial/cartao.css");
+@import url("./pagina-inicial/container.css");
+@import url("./criar-topico/criar-topico.css");
+@import url("./criar-cartao/criar-cartao.css");
+@import url("./ver-cartao/ver-cartao.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root{
+    --fonte-principal: 'Montserrat', sans-serif;
+    --fonte-principal-cor: rgb(119, 54, 0);
+    --bg-menu:rgb(255, 255, 255);
+    --bg-menu-hover: rgb(228, 110, 0);
+    --borda-cinza: rgb(219, 219, 219);
+    --filtros-cor: rgb(168, 168, 168);
+    --bg-fonte-adiciona: white;
+    --bg-adiciona: rgb(255, 166, 0);
+    --filtros-cor-hover: rgb(255, 203, 92);
+    --bg--cartao: rgb(233, 233, 233);
+    --bg-tag: rgb(197, 197, 197);
+}
+
+body{
+    font-family: var(--fonte-principal);
+
+}
+
+.escondido{
+    display: none;
+}

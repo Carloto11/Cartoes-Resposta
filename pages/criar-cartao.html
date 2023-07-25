@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Criar novo cartão</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho--menu-hamburguer">
+            <input type="checkbox" id="checkbox--barras" class="checkbox--barras">
+            <label for="checkbox--barras" class="checkbox--barras--label"><i class="fa-solid fa-bars" style="color: orange;"></i></label>
+
+            <h1 class="cabecalho--titulo">Cartões<span class="cabecalho--titulo-forte">Resposta</span></h1>
+
+            <ul class="cabecalho--filtro" id="topicos">
+               
+            </ul>
+        </div>
+
+        <div class="container--adicionar" id="adicionar">
+            <i class="fa-solid fa-plus" style="color: white;" id="adicionar--botao"></i>
+            <label class="adicionar--label" for="adicionar--botao">adicionar</label>
+        </div>
+    </header>
+
+    <main class="container">
+        <form action="" class="container--form" id="form">
+            <div class="form--pergunta">
+                <label for="form--pergunta-input" class="form--pergunta-label">Qual a pergunta do cartão resposta?</label>
+                <input type="text" name="pergunta" class="form--pergunta-input" id="form--pergunta-input">
+            </div>
+
+            <div class="form--resposta">
+                <label for="form--resposta-input" class="form--resposta-label">Qual a resposta para a pergunta?</label>
+                <input type="text" name="resposta" id="form--resposta-input" class="form--resposta-input" value="">
+            </div>
+
+            <div class="form--tag">
+                <label for="form--tag-input" class="form--tag-label">Qual a tag?</label>
+                <input type="text" name="tag" id="form--tag-input" class="form--tag-input">
+            </div>
+
+            <input type="submit" value="enviar" class="botao--enviar">
+        </form>
+    </main>
+
+    <script src="../js/novo-cartao.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Criar novo tópico</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho--menu-hamburguer">
+            <input type="checkbox" id="checkbox--barras" class="checkbox--barras">
+            <label for="checkbox--barras" class="checkbox--barras--label"><i class="fa-solid fa-bars" style="color: orange;"></i></label>
+
+            <h1 class="cabecalho--titulo">Cartões<span class="cabecalho--titulo-forte">Resposta</span></h1>
+
+            <ul class="cabecalho--filtro" id="topicos">
+                
+            </ul>
+        </div>
+    </header>
+
+    <main class="container--form">
+
+        <form class="form">
+            <div class="form--input-label">
+                <label for="input--topico">Digite o nome do novo tópico:</label>
+            </div>
+
+            <div class="form--input-finalizar">
+                <input type="text" class="input--topico" id="input-topico">
+                <input type="submit" class="botao--enviar" id="enviar" value="enviar">
+            </div>
+        </form>
+
+        <ul class="topicos--existentes">
+            
+        </ul>
+    </main>
+
+    <script src="../js/criar-topico.js" type="module"></script>
+</body>
+</html>
